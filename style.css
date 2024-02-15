@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+  }
+  .wrapper {
+    height: 100vh;
+    background: #000;
+  
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+  }
+  
+  .portrait {
+    font-size: 8px;
+    line-height: 10px;
+    background: url('https://www.usmagazine.com/wp-content/uploads/2023/12/Every-Time-Taylor-Swift-Eras-Tour-Became-the-Errors-Tour-2.jpg?w=1000&quality=86&strip=all') fixed center no-repeat;
+    background-size: contain;
+  }
+  
+  /* This part is important for the feature itself */
+  .portrait {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(15, 15, 15, 0.1);
+    
+  }
+  
